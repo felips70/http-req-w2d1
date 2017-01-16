@@ -16,7 +16,6 @@ function getHTML (options, callback) {
 
     response.on('end', function() {
       callback(myData);
-      console.log('Chunk Received. ', myData);
     })
 
   });
